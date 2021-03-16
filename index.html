@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>My Fabulous Garden</title>
+</head>
+<body>
+    <header>
+        <h2>My Fabulous Garden</h2>
+    </header>
+    <main>
+        <form action="flowerSelection" id="flowerSelection">
+            <fieldset>
+                <legend>New Flower </legend>
+                <label for="userName">Name</label>
+                <input type="text" required>
+                <label for="Image">Image</label>
+                <select name="flowerType" id="flowerType">
+                    <option value="Alstroemerias">Alstroemerias</option>
+                    <option value="Gardenias">Gardenias</option>
+                    <option value="Orchids">Orchids</option>
+                    <option value="Roses">Roses</option>
+                    <option value="Sunflowers">Sunflowers</option>
+                    <option value="Tulips">Tulips</option>
+                    <option value="Peonies">Peonies</option>
+                </select>
+                <label for="season">Season</label>
+                <input type="text" id="season">
+                <button id="submit">Submit</button>
+            </fieldset>
+        </form>
+        <section id="Data"></section>
+
+        <script src="./app.js"></script>
+    </main>
+    <footer>
+        <p>All rights reserved 2021&copy; ASAC</p>
+    </footer>
+    
+</body>
+</html>
